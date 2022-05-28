@@ -1,4 +1,2 @@
-# YDB wiki
-
-## Contributions
+# Contributions
 * [[Student Projects|students]]
