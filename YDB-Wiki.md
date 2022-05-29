@@ -1,2 +1,2 @@
 # Contributions
-* [[Student Projects|students]]
+* [[Student Projects|Student-Projects]]
