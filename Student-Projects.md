@@ -39,6 +39,8 @@ Mentor: Nikolay Perfilov
 ## Extend `ydb import file` Capabilities
 **TODO: detailed description**
 
+Mentor: Artem Zuikov
+
 ## YDB Core (C++)
 ### Optimize TEvVPut/TEvVGet message serialization
 If you want to dive into YDB's core, this is the task you are looking for. Writing and reading from/to YDB Distributed Storage (DS) effectively is very important. For every write to DS YDB's component dsproxy generates several messages TEvVPut (https://github.com/ydb-platform/ydb/blob/main/ydb/core/blobstorage/vdisk/common/vdisk_events.h#L504) because we write multiple replicas or erasure parts. TEvVPut message is serialised to go into the wire. The task is to optimize TEvVPut serialization. Currently we use Google protobuf for message serialization, but options are:
