@@ -37,7 +37,9 @@ Currently YDB CLI (https://ydb.tech/en/docs/getting_started/cli) doesn't support
 Mentor: Nikolay Perfilov
 
 ## Extend `ydb import file` Capabilities
-**TODO: detailed description**
+Currently YDB CLI (https://ydb.tech/en/docs/getting_started/cli) supports CSV and TSV input formats only. There're lots of other common formats we should support here. Such as JSON, Parquet, Avro, MessagePack, Debezium (over JSON or Avro), ORC, Protobuf, and so on. You could be interested in this task
+* if you want to know how modern systems serialize their data
+* if you want to get experience in data transfer between such systems
 
 Mentor: Artem Zuikov
 
