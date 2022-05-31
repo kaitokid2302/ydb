@@ -26,7 +26,11 @@ Out of the box monitoring for you client application is awesome. We have some id
 Mentor:Daniil Cherednik
 
 ### Safe Shutdown in C++ SDK
-**TODO: detailed description**
+Current C++ sdk implementation requires to call driver.Stop(true) method at the end of program. There are some internal sdk routines which can invoke gRpc calls out of user call context but gRpc does not allow this call after exit from main function.
+Such approach (to call driver.Stop(true)) is not convenient for real application because often it is difficult to control place where driver is constructed.
+The simplest solution is to make driver as a singletone object. Singletone usage is reasonable here because driver is able to work with multiple databases or with multiple clusters effectively sharing threads, connections and other grpc resources.
+Other solutions (using atexit fuction) are still possible to discuss.
+This task requires good knowledge of multitheading programming, ability to write portability code.
 
 Mentor:Daniil Cherednik
 
