@@ -66,3 +66,5 @@ Mentor: Aleksey Stankevichus
 
 ### Add Open Telemetry Support to YDB
 **TODO: add detailed description**
+
+Mentor: Andrey Fomichev
