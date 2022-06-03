@@ -57,11 +57,12 @@ We expect that you think propose some solutions, implement them and compare perf
 
 Mentor: Aleksey Stankevichus
 
-### Add Traces to YDB Core
+### Add LWTrace to components
 YDB uses lwtrace library for tracing events in the system and to debug issues.
 
-**TODO: 1. add traces to components; 2. add support for open telemetry.**
+**TODO: add detailed description**
 
 Mentor: Aleksey Stankevichus
 
-
+### Add Open Telemetry Support to YDB
+**TODO: add detailed description**
