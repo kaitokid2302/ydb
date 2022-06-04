@@ -68,3 +68,6 @@ Mentor: Aleksey Stankevichus
 **TODO: add detailed description**
 
 Mentor: Andrey Fomichev
+
+### Implement etcd API over YDB
+**TODO: add detailed description**
