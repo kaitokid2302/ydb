@@ -4,7 +4,7 @@ Below is the list of tasks that are good for student projects (course or graduat
 ### Support for Coordination service in Go SDK
 YDB has a Coordination Service which allow your client application to elect a leader via distributed lock (similar to ZooKeeper). The task is to add support for Coordination Service to Go SDK.
 
-Mentor: Aleksei Miasnikov (@asmyasnikov)
+Mentor: Aleksei Miasnikov (https://github.com/asmyasnikov)
 
 ### Support for sqlx.StructScan() in Go SDK
 Add support for sqlx.StructScan() from github.com/jmoiron/sqlx to Go SDK.
