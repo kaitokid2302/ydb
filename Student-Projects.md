@@ -4,26 +4,26 @@ Below is the list of tasks that are good for student projects (course or graduat
 ### Support for Coordination service in Go SDK
 YDB has a Coordination Service which allow your client application to elect a leader via distributed lock (similar to ZooKeeper). The task is to add support for Coordination Service to Go SDK.
 
-Mentor: Aleksei Miasnikov 
+Mentor: Aleksei Miasnikov (@asmyasnikov)
 
 ### Support for sqlx.StructScan() in Go SDK
 Add support for sqlx.StructScan() from github.com/jmoiron/sqlx to Go SDK.
 
-Mentor: Aleksei Miasnikov
+Mentor: Aleksei Miasnikov (https://github.com/asmyasnikov)
 
 ### Implement Plugin Mechanism in C++ SDK
 Add capability of loading plugins implemented via so/dll into C++ SDK.
 
 Example: YDB supports different authorisation mechanisms, it's a good idea to implement them as plugins to keep code dependancies clear.
 
-Mentor:Daniil Cherednik
+Mentor: Daniil Cherednik (https://github.com/dcherednik)
 
 ### Extend C++ SDK Monitoring
 Out of the box monitoring for you client application is awesome. We have some ideas how to extend C++ SDK Monitoring facilities.
 
 **TODO: detailed description**
 
-Mentor:Daniil Cherednik
+Mentor: Daniil Cherednik (https://github.com/dcherednik)
 
 ### Safe Shutdown in C++ SDK
 Current C++ sdk implementation requires to call driver.Stop(true) method at the end of program. There are some internal sdk routines which can invoke gRpc calls out of user call context but gRpc does not allow this call after exit from main function.
@@ -32,7 +32,7 @@ The simplest solution is to make driver as a singletone object. Singletone usage
 Other solutions (using atexit fuction) are still possible to discuss.
 This task requires good knowledge of multitheading programming, ability to write portability code.
 
-Mentor:Daniil Cherednik
+Mentor:Daniil Cherednik (https://github.com/dcherednik)
 
 ## YDB CLI (Command Line Interface)
 ### Implement Interactive CLI
@@ -45,7 +45,7 @@ Currently YDB CLI (https://ydb.tech/en/docs/getting_started/cli) supports CSV an
 * if you want to know how modern systems serialize their data
 * if you want to get experience in data transfer between such systems
 
-Mentor: Artem Zuikov
+Mentor: Artem Zuikov (https://github.com/4ertus2)
 
 ## YDB Core (C++)
 ### Optimize TEvVPut/TEvVGet message serialization
@@ -67,7 +67,7 @@ Mentor: Aleksey Stankevichus
 ### Add Open Telemetry Support to YDB
 **TODO: add detailed description**
 
-Mentor: Andrey Fomichev
+Mentor: Andrey Fomichev (https://github.com/fomichev3000)
 
 ### Implement etcd API over YDB
 **TODO: add detailed description**
