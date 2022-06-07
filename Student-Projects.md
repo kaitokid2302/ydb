@@ -55,14 +55,14 @@ If you want to dive into YDB's core, this is the task you are looking for. Writi
 3. Use custom protocol.
 We expect that you think propose some solutions, implement them and compare performance via benchmark.
 
-Mentor: Aleksey Stankevichus
+Mentor: Aleksey Stankevichus (https://github.com/the-ancient-1)
 
 ### Add LWTrace to components
 YDB uses lwtrace library for tracing events in the system and to debug issues.
 
 **TODO: add detailed description**
 
-Mentor: Aleksey Stankevichus
+Mentor: Aleksey Stankevichus (https://github.com/the-ancient-1)
 
 ### Add Open Telemetry Support to YDB
 **TODO: add detailed description**
