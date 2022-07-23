@@ -71,3 +71,8 @@ Mentor: Andrey Fomichev (https://github.com/fomichev3000)
 
 ### Implement etcd API over YDB
 **TODO: add detailed description**
+
+### Add support for Debezium record format in Change Data Capture
+https://github.com/ydb-platform/ydb/issues/101
+
+Mentor: Ilnaz Nizametdinov (https://github.com/CyberROFL)
