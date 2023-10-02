@@ -76,3 +76,27 @@ Mentor: Andrey Fomichev (https://github.com/fomichev3000)
 https://github.com/ydb-platform/ydb/issues/101
 
 Mentor: Ilnaz Nizametdinov (https://github.com/CyberROFL)
+
+### Integration Airflow and YDB Federated Query
+
+Federated query is the ability to take a query and provide solutions based on information from many different sources. Airflow™ pipelines are defined in Python, allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically. In this project it's neccessary to implement the node of this pipeline which communicates with YDB Federated Query
+
+Languages: C++, Python
+
+Mentor: Oleg Doronin (https://github.com/dorooleg)
+
+### Integration DBT and YDB Federated Query
+
+Federated query is the ability to take a query and provide solutions based on information from many different sources. DBT, short for data build tool, is an open source project for managing data transformations in a data warehouse. In this project it's neccessary to integrated the YDB Federated Query into DBT
+
+Languages: C++
+
+Mentor: Oleg Doronin (https://github.com/dorooleg)
+
+### Integration Datalens and YDB Federated Query
+
+Federated query is the ability to take a query and provide solutions based on information from many different sources. Data visualization through a simple and understandable DataLens interface. Datalens doesn't support the visiualization Bindings, Connections from YDB Federated Query. In this project it's necessary to implement this functionality
+
+Languages: C++
+
+Mentor: Oleg Doronin (https://github.com/dorooleg)
