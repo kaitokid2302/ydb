@@ -77,26 +77,36 @@ https://github.com/ydb-platform/ydb/issues/101
 
 Mentor: Ilnaz Nizametdinov (https://github.com/CyberROFL)
 
-### Integration Airflow and YDB Federated Query
+## Embedding
 
-Federated query is the ability to take a query and provide solutions based on information from many different sources. Airflow™ pipelines are defined in Python, allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically. In this project it's neccessary to implement the node of this pipeline which communicates with YDB Federated Query
+### Integration Airflow and YDB Federated Queries
+
+Federated queries are the ability to take a query and provide solutions based on information from many different sources. Airflow™ pipelines are defined in Python, allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically. In this project it's neccessary to implement the node of this pipeline which communicates with YDB Federated Queries
 
 Languages: C++, Python
 
 Mentor: Oleg Doronin (https://github.com/dorooleg)
 
-### Integration DBT and YDB Federated Query
+### Integration DBT and YDB Federated Queries
 
-Federated query is the ability to take a query and provide solutions based on information from many different sources. DBT, short for data build tool, is an open source project for managing data transformations in a data warehouse. In this project it's neccessary to integrated the YDB Federated Query into DBT
+Federated queries are the ability to take a query and provide solutions based on information from many different sources. [DBT](https://www.getdbt.com/product/what-is-dbt), short for data build tool, is an open source project for managing data transformations in a data warehouse. DBT are part of the [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack). In this project it's neccessary to integrate the YDB Federated Queries into DBT
 
 Languages: C++
 
 Mentor: Oleg Doronin (https://github.com/dorooleg)
 
-### Integration Datalens and YDB Federated Query
+### Integration Apache Superset and YDB Federated Queries
 
-Federated query is the ability to take a query and provide solutions based on information from many different sources. Data visualization through a simple and understandable DataLens interface. Datalens doesn't support the visiualization Bindings, Connections from YDB Federated Query. In this project it's necessary to implement this functionality
+Federated queries are the ability to take a query and provide solutions based on information from many different sources. After the data has already been proccessed it's usefull to visualize them. There is the [Apache Superset](https://superset.apache.org/) for this purpose. Apache Superset uses the [SQL Alchemy](https://www.sqlalchemy.org/) to communcate with external systems. SQL Alchemy already supports YDB and is used in Datalens. In this project, this functionality needs to be integrated into Apache Superset
 
 Languages: C++
+
+Mentor: Oleg Doronin (https://github.com/dorooleg)
+
+### Implementation YDB Kafka Connection Sink
+
+Kafka supports different sources/sinks for communicating with external systems. It's easy to find the list of these sources/sinks [here](https://www.confluent.io/product/connectors). As we can see there is no YDB as a sink. This project involves a new implementation of the YDB sink. The example of sink implementation can be found [here](https://github.com/kakao/kafka-sink-connector/blob/master/src/main/java/com/kakao/connector/kafka/KafkaSinkTask.java)
+
+Languages: Java
 
 Mentor: Oleg Doronin (https://github.com/dorooleg)
