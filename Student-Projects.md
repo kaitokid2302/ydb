@@ -91,7 +91,7 @@ Mentor: Oleg Doronin (https://github.com/dorooleg)
 
 Federated queries are the ability to take a query and provide solutions based on information from many different sources. [DBT](https://www.getdbt.com/product/what-is-dbt), short for data build tool, is an open source project for managing data transformations in a data warehouse. DBT are part of the [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack). In this project it's neccessary to integrate the YDB Federated Queries into DBT
 
-Languages: C++
+Languages: Python
 
 Mentor: Oleg Doronin (https://github.com/dorooleg)
 
@@ -99,13 +99,18 @@ Mentor: Oleg Doronin (https://github.com/dorooleg)
 
 Federated queries are the ability to take a query and provide solutions based on information from many different sources. After the data has already been proccessed it's usefull to visualize them. There is the [Apache Superset](https://superset.apache.org/) for this purpose. Apache Superset uses the [SQL Alchemy](https://www.sqlalchemy.org/) to communcate with external systems. SQL Alchemy already supports YDB and is used in Datalens. In this project, this functionality needs to be integrated into Apache Superset
 
-Languages: C++
+Languages: Python
 
 Mentor: Oleg Doronin (https://github.com/dorooleg)
 
 ### Implementation YDB Kafka Connection Sink
 
 Kafka supports different sources/sinks for communicating with external systems. It's easy to find the list of these sources/sinks [here](https://www.confluent.io/product/connectors). As we can see there is no YDB as a sink. This project involves a new implementation of the YDB sink. The example of sink implementation can be found [here](https://github.com/kakao/kafka-sink-connector/blob/master/src/main/java/com/kakao/connector/kafka/KafkaSinkTask.java)
+
+Languages: Java
+
+### Implementation Apache Nifi YDB Sink
+[Apache NiFi](https://nifi.apache.org/) supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic. In this project, you need to implement ydb as a sink for the data graph in Apache NiFi
 
 Languages: Java
 
