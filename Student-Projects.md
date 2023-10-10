@@ -115,3 +115,10 @@ Languages: Java
 Languages: Java
 
 Mentor: Oleg Doronin (https://github.com/dorooleg)
+
+### Python Notebook and Federated Queries
+[The Jupyter Notebook](https://jupyter.org/) is a web-based interactive computing platform. This tool is very popular for data analysis and visualization. It is necessary to develop a library that will allow users to conveniently interact with Federated Queries in the Jupyter Notebook environment
+
+Languages: Python
+
+Mentor: Oleg Doronin (https://github.com/dorooleg)
